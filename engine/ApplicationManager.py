@@ -20,5 +20,5 @@ class ApplicationManager:
         self.api_requests = ApiRequests(self)
         self.web_any_page = AnyPage(self)
         self.web_activity = Activity(self)
-        self.web_steps = ecom_steps(self)
+ 
 
