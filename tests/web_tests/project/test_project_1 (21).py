@@ -45,7 +45,7 @@ class Testproject_26(WebBase):
         address_market = "г Новосибирск, Гусинобродское шоссе, д 64" #г Санкт-Петербург, Выборгское шоссе, д 11 литера А
         project.select_address_delivery_any(address_market, city, sw)
         project. small_wait()
-        c = "Товар недоступен для доставки" #овар доступен в других магазинах "Лента"
+        c = "Товар недоступен для доставки" #овар доступен в других магазинах "project"
         project.basket_check_delivery(c)
         # project.click_next_item()
         # project.switch_to_new_tab()

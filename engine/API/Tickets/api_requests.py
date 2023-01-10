@@ -15,4 +15,4 @@ class ApiRequests(APIBase):
         return self.requests_POST(self.get_base_url() + '/api/v1/authentication/VerifyCode', body, params)
 
 
-    #https://stage.lentatest.com/api/v1/authentication/verifycallcode
+    #https://stage.ttest.com/api/v1/authentication/verifycallcode

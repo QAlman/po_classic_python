@@ -7,39 +7,39 @@ from engine.WEB.AnyPage import AnyPage
 
 
 class Locator:
-    ecom_url_34 = "https://stage.lentatest.com/product/hleb-rizhskijj-rossiya-500g-101869/"
-    ecom_url_34_1 = "https://stage.lentatest.com/product/gc-buritto-vesovojj-rossiya-084250/"
+    project_url_34 = "https://stage.ttest.com/product/hleb-rizhskijj-rossiya-500g-101869/"
+    project_url_34_1 = "https://stage.ttest.com/product/gc-buritto-vesovojj-rossiya-084250/"
 
-    ecom_url_31 = "https://stage.lentatest.com/catalog/chajj-kofe-kakao/"
-    ecom_url_31_t = "https://stage.lentatest.com/product/chajj-chernyjj-richard-royal-ceylon-mu-rossiya-100pak-381905/"
-    ecom_url_31_b = "https://stage.lentatest.com/brand/richard/"
-    ecom_url_26 = "https://stage.lentatest.com/catalog/alkogolnye-napitki/"
-    ecom_url_26_1 = "https://stage.lentatest.com/product/viski-grants-triple-wood-alk40-velikobritaniya-07l-492102/"
-    ecom_url_26_2 = "https://stage.lentatest.com/catalog/alkogolnye-napitki/vino/belye-vina/"
-    ecom_url_26_3 = "https://stage.lentatest.com/product/klejjkarandash-365-dnejj-l10289-kitajj-354660/"
-    ecom_url_24 = "https://stage.lentatest.com/catalog/moloko-syr-yajjco/"
-    ecom_url_21 = "https://stage.lentatest.com/recepty/"
-    ecom_url_21_1 = "https://stage.lentatest.com/recepty/catalog-recepty/f/vremena-goda=ves-god/"
-    ecom_url_19 = "https://stage.lentatest.com/catalog/chajj-kofe-kakao/chajj/chernyjj-chajj/"
-    ecom_url_15 = "https://stage.lentatest.com/catalog/bezalkogolnye-napitki/"
-    ecom_url_15_1 = "https://stage.lentatest.com/product/voda-pitevaya-svyatojj-istochnik-negaz-pet-rossiya-5l-309510/"
-    ecom_url_15_2 = "https://stage.lentatest.com/shoppinglist/"
-    ecom_url_14 = "https://stage.lentatest.com/shoppinglist/"
-    ecom_url_14_1 = "https://stage.lentatest.com/product/tomaty-na-vetke-ves-1kg-015182/"
-    ecom_url_13 = "https://stage.lentatest.com/product/syr-365-dnejj-rossijjskijj-50-kusok-rossiya-200g-354392/"
-    ecom_url_13_1 = "https://stage.lentatest.com/product/slivki-lenta-20-rossiya-200g-354363/"
-    ecom_url_13_2 = "https://stage.lentatest.com/product/syr-365-dnejj-slivochnyjj-50-kusok-rossiya-300g-354391/"
-    ecom_url_13_3 = "https://stage.lentatest.com/product/slivki-lenta-33-rossiya-200g-354364/"
-    ecom_url_13_4 = "https://stage.lentatest.com/product/slivki-lenta-10-rossiya-200g-354361/"
-    ecom_url_13_5 = "https://stage.lentatest.com/product/syr-365-dnejj-gollandskijj-45-kusok-rossiya-300g-354393/"
-    ecom_url_13_6 = "https://stage.lentatest.com/product/syr-hochland-tvorozhnyjj-slivochnyjj-60-rossiya-140g-218460/"
-    ecom_url_12 = "https://stage.lentatest.com/product/tomaty-slivovidnye-ves-1kg-024654/"
-    ecom_url_9 = "https://stage.lentatest.com/catalog/myaso-ptica-kolbasa/"
-    ecom_url_9_1 = "https://stage.lentatest.com/catalog/myaso-ptica-kolbasa/myaso-ohlazhdennoe/govyadina/"
-    ecom_url_8 = "https://stage.lentatest.com/crazynew/"
+    project_url_31 = "https://stage.ttest.com/catalog/chajj-kofe-kakao/"
+    project_url_31_t = "https://stage.ttest.com/product/chajj-chernyjj-richard-royal-ceylon-mu-rossiya-100pak-381905/"
+    project_url_31_b = "https://stage.ttest.com/brand/richard/"
+    project_url_26 = "https://stage.ttest.com/catalog/alkogolnye-napitki/"
+    project_url_26_1 = "https://stage.ttest.com/product/viski-grants-triple-wood-alk40-velikobritaniya-07l-492102/"
+    project_url_26_2 = "https://stage.ttest.com/catalog/alkogolnye-napitki/vino/belye-vina/"
+    project_url_26_3 = "https://stage.ttest.com/product/klejjkarandash-365-dnejj-l10289-kitajj-354660/"
+    project_url_24 = "https://stage.ttest.com/catalog/moloko-syr-yajjco/"
+    project_url_21 = "https://stage.ttest.com/recepty/"
+    project_url_21_1 = "https://stage.ttest.com/recepty/catalog-recepty/f/vremena-goda=ves-god/"
+    project_url_19 = "https://stage.ttest.com/catalog/chajj-kofe-kakao/chajj/chernyjj-chajj/"
+    project_url_15 = "https://stage.ttest.com/catalog/bezalkogolnye-napitki/"
+    project_url_15_1 = "https://stage.ttest.com/product/voda-pitevaya-svyatojj-istochnik-negaz-pet-rossiya-5l-309510/"
+    project_url_15_2 = "https://stage.ttest.com/shoppinglist/"
+    project_url_14 = "https://stage.ttest.com/shoppinglist/"
+    project_url_14_1 = "https://stage.ttest.com/product/tomaty-na-vetke-ves-1kg-015182/"
+    project_url_13 = "https://stage.ttest.com/product/syr-365-dnejj-rossijjskijj-50-kusok-rossiya-200g-354392/"
+    project_url_13_1 = "https://stage.ttest.com/product/slivki-t-20-rossiya-200g-354363/"
+    project_url_13_2 = "https://stage.ttest.com/product/syr-365-dnejj-slivochnyjj-50-kusok-rossiya-300g-354391/"
+    project_url_13_3 = "https://stage.ttest.com/product/slivki-t-33-rossiya-200g-354364/"
+    project_url_13_4 = "https://stage.ttest.com/product/slivki-t-10-rossiya-200g-354361/"
+    project_url_13_5 = "https://stage.ttest.com/product/syr-365-dnejj-gollandskijj-45-kusok-rossiya-300g-354393/"
+    project_url_13_6 = "https://stage.ttest.com/product/syr-hochland-tvorozhnyjj-slivochnyjj-60-rossiya-140g-218460/"
+    project_url_12 = "https://stage.ttest.com/product/tomaty-slivovidnye-ves-1kg-024654/"
+    project_url_9 = "https://stage.ttest.com/catalog/myaso-ptica-kolbasa/"
+    project_url_9_1 = "https://stage.ttest.com/catalog/myaso-ptica-kolbasa/myaso-ohlazhdennoe/govyadina/"
+    project_url_8 = "https://stage.ttest.com/crazynew/"
 
 
-    ecom_user = "9407718110"
+    project_user = "9407718110"
 
     blank = "\b\b\b\b"
     txt_promo = "Вы получили скидку"
@@ -144,7 +144,7 @@ class Locator:
     add_basket_big = (By.XPATH, "//span[@class='basket-sku-control__text']")
     add_basket_small = (By.XPATH, "//*[@class='sku-card-small-basket-control__default-control']")
     rise_item = (By.XPATH, "//*[@class='basket-sku-control__input']")
-    move_to_basket = (By.XPATH, "//*[@href='/-ecom/basket/']")
+    move_to_basket = (By.XPATH, "//*[@href='/-project/basket/']")
     move_to_favorites = (By.XPATH, "//*[@href='/shoppinglist/']")
     field_promo = (By.XPATH, "//input[@class='input-field__control input-field__control--native']")
     notif_promo = (By.XPATH, "//*[@class='input-field__successed-text'][contains(.,'Вы получили скидку')]")
@@ -176,7 +176,7 @@ class Locator:
     select_milk = (By.XPATH, "(//*[@href='/catalog/moloko-syr-yajjco/'][contains(.,'Молоко, сыр, яйцо')])[1]")
 
     # 381905
-    tee_select = (By.XPATH, "//*[@class='sku-card-small sku-card-small--ecom'][contains(.,'Чай черный RICHARD Royal Ceylon Цейлонский байховый, 100пак')]")
+    tee_select = (By.XPATH, "//*[@class='sku-card-small sku-card-small--project'][contains(.,'Чай черный RICHARD Royal Ceylon Цейлонский байховый, 100пак')]")
     move_to_brand = (By.XPATH, "//*[@class='sku-card-tab-params__label'][contains(.,'Бренд')]")
     move_to_item = "//*[@class='tabs__tab sku-card-tab__nav-item tabs__tab--active'][contains(.,'Характеристики')]"
     brand_select = (By.XPATH, "//*[@class='link sku-card-tab-params__link'][contains(.,'RICHARD')]")
@@ -193,11 +193,11 @@ class Locator:
     receipts_block_check = (By.XPATH, "//*[@ga-event-label][contains(.,'Рецепты')]")
     receipts_selections_check = "//*[@class='recipe-page__title recipe-similar-recipes__title']"
     receipts_all_categories = (By.XPATH, "//*[@ga-event-label='Рецепты|Все категории']")
-    receipts_add_to_favorites = (By.XPATH, "//*[contains(@href,'https://stage.lentatest.com/recepty/list/v/--/')]//*[@class='icon favourite-action__icon']")
+    receipts_add_to_favorites = (By.XPATH, "//*[contains(@href,'https://stage.ttest.com/recepty/list/v/--/')]//*[@class='icon favourite-action__icon']")
     receipts_add_to_favorites_one = (By.XPATH, "(//span[@class='recipe-ingredients-list__button'])[1]")
-    receipts_add_to_favorites_two = (By.XPATH, "//*[@href='https://stage.lentatest.com/shoppinglist/?tab=customskus']")
+    receipts_add_to_favorites_two = (By.XPATH, "//*[@href='https://stage.ttest.com/shoppinglist/?tab=customskus']")
     receipts_in_favorites = (By.XPATH, "//*[@class='tabs__tab'][contains(.,'Рецепты')]")
-    receipts_cart = (By.XPATH, "//*[contains(@href,'https://stage.lentatest.com/recepty/list/v/--/')]")
+    receipts_cart = (By.XPATH, "//*[contains(@href,'https://stage.ttest.com/recepty/list/v/--/')]")
     receipts_cart_txt = (By.XPATH, "//*[@class='favourite-action__text']")
     receipts_cart_offer = (By.XPATH, "(//span[@class='page-sharing-control__share-toggler-text'])[1]")
     receipts_cart_vk = (By.XPATH, "(//*[@class='page-sharing-control__social-icon page-sharing-control__social-icon--vk'])[1]")
@@ -239,7 +239,7 @@ class Locator:
 
 
 
-class ecom_create(AnyPage):
+class project_create(AnyPage):
 
     @allure.step('Закрываем ситипикер')
     def close_citypicker(self):
@@ -768,12 +768,12 @@ class ecom_create(AnyPage):
 
     @allure.step('Добавить товары в корзину 101869 1шт ,084250 1кг')
     def add_basket(self):
-        self.goto_page(Locator.ecom_url_34)
+        self.goto_page(Locator.project_url_34)
         time.sleep(3)
         self.click_element_my(Locator.add_basket_big)
         time.sleep(5)
         self.allure_screenshot()
-        self.goto_page(Locator.ecom_url_34_1)
+        self.goto_page(Locator.project_url_34_1)
         time.sleep(3)
         self.click_element_my(Locator.add_basket_big)
         time.sleep(5)
@@ -1014,7 +1014,7 @@ class ecom_create(AnyPage):
 
     @allure.step('Открыть ноду Молко/сыр/яйцо ')
     def open_noda_milk(self):
-        self.goto_page(Locator.ecom_url_24)
+        self.goto_page(Locator.project_url_24)
         time.sleep(2)
         self.allure_screenshot()
 
@@ -1022,7 +1022,7 @@ class ecom_create(AnyPage):
 
     @allure.step('2.  Открыть ноду  "Чай, кофе, какао"')
     def open_noda_coffee(self):
-        self.goto_page(Locator.ecom_url_31)
+        self.goto_page(Locator.project_url_31)
         time.sleep(2)
         self.allure_screenshot()
 
@@ -1030,22 +1030,22 @@ class ecom_create(AnyPage):
 
     @allure.step('Открыть ноду  "Все для дома"')
     def open_noda_forhome(self):
-        self.goto_page(Locator.ecom_url_26_3)
+        self.goto_page(Locator.project_url_26_3)
         time.sleep(2)
         self.allure_screenshot()
 
         return self
 
-    @allure.step('3. Перейти в ноду "Алкогольные напитки" https://stage.lentatest.com/catalog/alkogolnye-napitki/')
+    @allure.step('3. Перейти в ноду "Алкогольные напитки" https://stage.ttest.com/catalog/alkogolnye-napitki/')
     def open_noda_alco(self):
-        self.goto_page(Locator.ecom_url_26)
+        self.goto_page(Locator.project_url_26)
         time.sleep(2)
         self.allure_screenshot()
 
         return self
 
     def select_alco_item(self):
-        self.goto_page(Locator.ecom_url_26_1)
+        self.goto_page(Locator.project_url_26_1)
         time.sleep(2)
         self.allure_screenshot()
 
@@ -1140,9 +1140,9 @@ class ecom_create(AnyPage):
 
         return self
 
-    @allure.step('7. Перейти на бренд по прямой ссылке  https://stage.lentatest.com/brand/richard/')
+    @allure.step('7. Перейти на бренд по прямой ссылке  https://stage.ttest.com/brand/richard/')
     def go_to_brand(self):
-        self.goto_page(Locator.ecom_url_31_b)
+        self.goto_page(Locator.project_url_31_b)
         self.allure_screenshot()
 
         return self
@@ -1214,15 +1214,15 @@ class ecom_create(AnyPage):
     @allure.step('8. Открывается нода "Каталог->Чай,кофе,какао-> Чай-> Черный чай" отображаются товары')
     def check_noda_black_tee(self):
         u = self.get_current_url()
-        assert u == Locator.ecom_url_19, "URL не соответствует ожидаемому"
+        assert u == Locator.project_url_19, "URL не соответствует ожидаемому"
         self.allure_screenshot()
 
         return self
 
-    @allure.step('10. Отображается страничка ноды https://stage.lentatest.com/catalog/alkogolnye-napitki/vino/belye-vina/')
+    @allure.step('10. Отображается страничка ноды https://stage.ttest.com/catalog/alkogolnye-napitki/vino/belye-vina/')
     def check_noda_alco(self):
         u = self.get_current_url()
-        assert u == Locator.ecom_url_26_2, "URL не соответствует ожидаемому"
+        assert u == Locator.project_url_26_2, "URL не соответствует ожидаемому"
         self.allure_screenshot()
 
         return self
@@ -1465,7 +1465,7 @@ class ecom_create(AnyPage):
 
 
     @allure.step('Принимаем  соглашение')
-    def clic_approve_terms_ecom(self):
+    def clic_approve_terms_project(self):
         self.click_element_my(Locator.approve_terms)
         self.allure_screenshot()
 

@@ -71,7 +71,7 @@ class WebBase(TestBase):
         self.APP.web_activity.button_to_visible_article()
         return self.APP.web_activity.page_loaded_and()
 
-    def ecom_test(self):
+    def project_test(self):
 
-        self.APP.web_activity.button_to_ecom()
+        self.APP.web_activity.button_to_project()
         return self.APP.web_activity.page_loaded_and()

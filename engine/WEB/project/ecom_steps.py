@@ -7,7 +7,7 @@ from engine.WEB.AnyPage import AnyPage
 
 
 
-class ecom_steps(AnyPage):
+class project_steps(AnyPage):
 
     @allure.step('ШАГИ')
     def step_test_5(self):
@@ -21,7 +21,7 @@ class ecom_steps(AnyPage):
               "8. Перейти к фильтрам и выбрать Бренд Hohland  в заголовке отображается Плавленный сыр: Hochland отображается 8 товаров\n"
               "9. Перейти в фильтр Производитель выбрать хохланд Руссланд\n"
               "10. Фильтр выбран, отображается 2  товара, отображается заголовок -Плавленный сыр: HOCHLAND, Хохланд Руссланд -\n"
-              "11. В url отображаются ноды и фильтры -https://stage.lentatest.com/catalog/moloko-syr-yajjco/syr/plavlennyjj-syr/f/brandname=hochland/producer=hohland-russland/-\n")
+              "11. В url отображаются ноды и фильтры -https://stage.ttest.com/catalog/moloko-syr-yajjco/syr/plavlennyjj-syr/f/brandname=hochland/producer=hohland-russland/-\n")
 
         return self
 
@@ -53,12 +53,12 @@ class ecom_steps(AnyPage):
     @allure.step('ШАГИ')
     def step_test_8(self):
         print('1. Выбрать ТК на Савушкина д 112. лит. А.\n'
-              '2. Хедере навестить на "Акции" в раскрытом списке выбрать "Суперскидки" https://stage.lentatest.com/-3/tcp-st/\n'
+              '2. Хедере навестить на "Акции" в раскрытом списке выбрать "Суперскидки" https://stage.ttest.com/-3/tcp-st/\n'
               '3. Подборка корректно отображается, отображаются товары\n'
-              '4. Хедере навестить на "Акции" в раскрытом списке выбрать "Товары недели"https://stage.lentatest.com/goods-actions-old/tovari-nedeli/\n'
+              '4. Хедере навестить на "Акции" в раскрытом списке выбрать "Товары недели"https://stage.ttest.com/goods-actions-old/tovari-nedeli/\n'
               '5. Подборка корректно отображается, отображаются товары с заголовком "big media карусель "\n'
               '6. Посмотреть что карусель работает, полистать на кнопки < >\n'
-              '7. Хедере навестить на "Акции" в раскрытом списке выбрать "Подборка Ленточка" https://stage.lentatest.com/productsgroups/lentochka/\n'
+              '7. Хедере навестить на "Акции" в раскрытом списке выбрать "Подборка точка" https://stage.ttest.com/productsgroups/lentochka/\n'
               '8. Подборка открывает, отображается слева дерево нод, отображаются товары\n'
               '9. Хедере навестить на "Акции" в раскрытом списке выбрать "landing page"\n'
               '10. Страница лендинга корректно открывается, отбражается текст, картинки, заголовки\n'
@@ -110,7 +110,7 @@ class ecom_steps(AnyPage):
               '30. Нажать кнопку "Восстановить"\n'
               '31. Товар успешно восстановлен\n'
               '32. Под блоком итогов нажать "Продолжить оформление"\n'
-              '33. Открывается страница чекаута https://stage.lentatest.com/-ecom/checkout/\n'
+              '33. Открывается страница чекаута https://stage.ttest.com/-project/checkout/\n'
               '34. Отображается получаетель- текущий пользователь\n'
               '35. Нажать "+ Другой получаетль"\n'
               '36. ВВести имя и номер телефона\n'
@@ -149,7 +149,7 @@ class ecom_steps(AnyPage):
 
     @allure.step('ШАГИ')
     def step_test_11(self):
-        print("1.Открыть страницу всех масс промо https://stage.lentatest.com/promo/ на Савушкина д 112.лит.А\n"
+        print("1.Открыть страницу всех масс промо https://stage.ttest.com/promo/ на Савушкина д 112.лит.А\n"
               "2.Посмотреть что на страничке отображаются товары со скидками(товары бейджем скидки в углу карточки)\n"
               "3.Применить сортировки( По популярности,  По размеру скидки, Сначала дешевые, сначала дорогие, по рейнтигу)\n"
               "4.Применить фильтры по цене, по бренду\n"
@@ -161,7 +161,7 @@ class ecom_steps(AnyPage):
 
     @allure.step('ШАГИ')
     def step_test_11_1(self):
-        print("1.Открыть страницу всех масс промо https://stage.lentatest.com/promo/ на Савушкина д 112.лит.А\n"
+        print("1.Открыть страницу всех масс промо https://stage.ttest.com/promo/ на Савушкина д 112.лит.А\n"
               "2.Посмотреть что на страничке отображаются товары со скидками(товары бейджем скидки в углу карточки)\n"
               "3.Применить сортировки( По популярности,  По размеру скидки, Сначала дешевые, сначала дорогие, по рейнтигу)\n"
               "4.Применить фильтры по цене, по бренду\n"
@@ -174,7 +174,7 @@ class ecom_steps(AnyPage):
     @allure.step('ШАГИ')
     def step_test_12(self):
         print('1. Выбрать ТК на Савушкина 112 в режиме самовывоз\n'
-              '2. Открыть карточку товара https://stage.lentatest.com/product/tomaty-slivovidnye-ves-1kg-024654/\n'
+              '2. Открыть карточку товара https://stage.ttest.com/product/tomaty-slivovidnye-ves-1kg-024654/\n'
               '3. Справа от цены блок наличия в других тк\n'
               '4. Отображается самовывоз, текущий магазин, кол-во товара и доставка\n'
               '5. Нажать на Адрес магазина ул.Савушкина,д.112,лит.А\n'
@@ -185,7 +185,7 @@ class ecom_steps(AnyPage):
               '10. У пользователя в хедере отображается выбранный магазин ш.Выборгское, д.11, лит. А'
               '11. Открыть сити-пикер'
               '12. Выбрать г.Кострома ш.Кирилловское,д.50А'
-              '13. Перейти в карточку товара https://stage.lentatest.com/product/tomaty-slivovidnye-ves-1kg-024654/'
+              '13. Перейти в карточку товара https://stage.ttest.com/product/tomaty-slivovidnye-ves-1kg-024654/'
               '14. Нажать в блоке наличие в других ТК на ш.Кирилловское, д.50А'
               '15. Кнопка не кликабельна список магазинов не отображается'
               '16. Открыть ситипикер'
@@ -200,7 +200,7 @@ class ecom_steps(AnyPage):
         print("1. Выбрать ТК на Савушкина д 112. лит. А\n"
               "2. Перейти в каталог товаров\n"
               "3.Выбрать категорию Молоко, сыр,яйцо\n"
-              "4. Открыть карточки 6 Любых  товаров( например : https://stage.lentatest.com/product/syr-365-dnejj-rossijjskijj-50-kusok-rossiya-200g-354392/ , https://stage.lentatest.com/product/slivki-lenta-20-rossiya-200g-354363/ , https://stage.lentatest.com/product/syr-365-dnejj-slivochnyjj-50-kusok-rossiya-300g-354391/ , https://stage.lentatest.com/product/slivki-lenta-33-rossiya-200g-354364/, https://stage.lentatest.com/product/slivki-lenta-10-rossiya-200g-354361/,https://stage.lentatest.com/product/syr-365-dnejj-gollandskijj-45-kusok-rossiya-300g-354393/\n"
+              "4. Открыть карточки 6 Любых  товаров( например : https://stage.ttest.com/product/syr-365-dnejj-rossijjskijj-50-kusok-rossiya-200g-354392/ , https://stage.ttest.com/product/slivki-t-20-rossiya-200g-354363/ , https://stage.ttest.com/product/syr-365-dnejj-slivochnyjj-50-kusok-rossiya-300g-354391/ , https://stage.ttest.com/product/slivki-t-33-rossiya-200g-354364/, https://stage.ttest.com/product/slivki-t-10-rossiya-200g-354361/,https://stage.ttest.com/product/syr-365-dnejj-gollandskijj-45-kusok-rossiya-300g-354393/\n"
               "5. В последней карточке товара пролистать вниз\n"
               "6. Отображается карусель -Вы смотрели-\n"
               "7.Проверить что карусель листается  на стрелочки < >,\n"
@@ -211,7 +211,7 @@ class ecom_steps(AnyPage):
     @allure.step('ШАГИ')
     def step_test_14(self):
         print('1. Выбрать ТК на Савушкина 112 в режиме самовывоза\n'
-              '2. Открыть карточку товара https://stage.lentatest.com/product/tomaty-slivovidnye-ves-1kg-024654/\n'
+              '2. Открыть карточку товара https://stage.ttest.com/product/tomaty-slivovidnye-ves-1kg-024654/\n'
               '3. Над названием отображается рейтинг и кол-во отзывов\n'
               '4. Нажать на отзывы\n'
               '5. Пролистывается страница до отзывов\n'
@@ -220,7 +220,7 @@ class ecom_steps(AnyPage):
               '8. Нажать кнопку "Поделиться "\n'
               '9. Отображаются 2 иконки VK.F'
               '10. Добавить товар в избранное'
-              '11. Перейти на страничку избранного https://stage.lentatest.com/shoppinglist/\n'
+              '11. Перейти на страничку избранного https://stage.ttest.com/shoppinglist/\n'
               '12. Нажать на иконку поделиться рядом с кнопкой очистить список\n'
               '13. Отображается окно "Отправить список"\n'
               '14. Нажать "Ссылка"\n'
@@ -245,7 +245,7 @@ class ecom_steps(AnyPage):
               '7. Нажать на середчко убрать из избранного( сердечко не закрашено)\n'
               '8. Нажать добавить в Корзину\n'
               '9. Перейти на страницу избранного\n'
-              '10. https://stage.lentatest.com/shoppinglist/\n'
+              '10. https://stage.ttest.com/shoppinglist/\n'
               '11. у ТОвара в избранном нажать на сердечко\n'
               '12. У товара сердечко не закрашено\n'
               '13. Нажать в Корзину из списка\n'
@@ -290,18 +290,18 @@ class ecom_steps(AnyPage):
     @allure.step('ШАГИ')
     def step_test_21(self):
         print("1. Авторизоваться, выбрать ТК 0002 СПБ Савушкина 112"
-              "2. Открыть стартовую страничку рецептов https://stage.lentatest.com/recepty/"
+              "2. Открыть стартовую страничку рецептов https://stage.ttest.com/recepty/"
               "3. На странице рецептов отображаются блоки: Рецепты,Статьи, Видео,Избранное"
               "4. Отображаются подборки рецептов"
-              "5. В блоке рецепты нажать Все категории https://stage.lentatest.com/recepty/catalog-recepty/"
+              "5. В блоке рецепты нажать Все категории https://stage.ttest.com/recepty/catalog-recepty/"
               "6. Добавить рецепт в избранное в каталоге рецептов( на картинке рецепта справа в углу сердечко)"
-              "7. Открыть страничку рецепта https://stage.lentatest.com/recepty/list/v/--/"
+              "7. Открыть страничку рецепта https://stage.ttest.com/recepty/list/v/--/"
               "8. Под названием рецепта отображается В избранном"
               "9. Нажать на В избранном, сердечко перестало быть закрашенным(отображается пустое сердечко)"
               "10. Нажать поделиться( отображается выпадающая меню в котором отображается vk, f)"
               "11. В ингредиентах убрать несколько ингредиентов( ннапример: сливки, вода без газа)"
               "12. Нажать под ингредиетами в избранное(кнопка меняется на Перейти в избранное)"
-              "13. Пролистать вниз нажать на тег Весь год (отображается каталог рецептов с url https://stage.lentatest.com/recepty/catalog-recepty/f/vremena-goda=ves-god/ и в фильтре Время года выбран Весь год"
+              "13. Пролистать вниз нажать на тег Весь год (отображается каталог рецептов с url https://stage.ttest.com/recepty/catalog-recepty/f/vremena-goda=ves-god/ и в фильтре Время года выбран Весь год"
               "14. В фильтре Основа блюда выбрать Бобовые(фильтр выбран) отображается 7 рецептов"
               "15. Пролистать вниз фильтров и нажать Сбосить все фильтры "
               "16. Перейти к началу фильтров в фильтры по Ингредиенты"
@@ -315,13 +315,13 @@ class ecom_steps(AnyPage):
               "24. Отображаются 2 рецепта"
               "25. Применить сортировку По времени приготовления"
               "26. Применить сортировку по рейтингу(первым стоит салат)"
-              "27. Открыть рецепт Салат из помидоров черри с бородинским https://stage.lentatest.com/recepty/list/s/salat-iz-pomidorov-cherri-s-borodinskim-hlebom-i-adygeyskim-syrom/"
+              "27. Открыть рецепт Салат из помидоров черри с бородинским https://stage.ttest.com/recepty/list/s/salat-iz-pomidorov-cherri-s-borodinskim-hlebom-i-adygeyskim-syrom/"
               "28. Нажать картинку рецепта( открылось видео в окне) "
               "29. Закрыть видео"
-              "30. Открыть стартовую страницу рецептов  https://stage.lentatest.com/recepty/"
+              "30. Открыть стартовую страницу рецептов  https://stage.ttest.com/recepty/"
               "31. Открыть подборку рецептов Блюда с ягодами и фруктами нажать смотреть все"
               "32. Отображаются рецепты подборки"
-              "33. Открыть стартовую страницу рецептов  https://stage.lentatest.com/recepty/"
+              "33. Открыть стартовую страницу рецептов  https://stage.ttest.com/recepty/"
               "34. Пролистать до Блюда по инредиентам"
               "35. Нажать на Лосось(филе)"
               "36. Отображается 2 рецепта")
@@ -347,14 +347,14 @@ class ecom_steps(AnyPage):
     def step_test_26(self):
         print("1. Авторироваться выбрать ТК спб ш.Выборгское, д. 11, лит. А в режиме самовывоза\n"
               "2. Открыть каталог\n"
-              "3. Перейти в ноду Алкогольные напитки  https://stage.lentatest.com/catalog/alkogolnye-napitki/\n"
-              "4. Добавить товар 492102 в корзину Кнопка зарезервировать https://stage.lentatest.com/product/viski-grants-triple-wood-alk40-velikobritaniya-07l-492102/\n"
+              "3. Перейти в ноду Алкогольные напитки  https://stage.ttest.com/catalog/alkogolnye-napitki/\n"
+              "4. Добавить товар 492102 в корзину Кнопка зарезервировать https://stage.ttest.com/product/viski-grants-triple-wood-alk40-velikobritaniya-07l-492102/\n"
               "5. Перейти в корзину\n"
               "6. Открыть ситипикер\n"
               "7. Выбрать доставку ТК спб ш.Выборгское, д. 11, лит. А\n"
               "8. Отображается  Товар недоступен для доставки\n"
               "9. Нажать Выбрать другой\n"
-              "10. Отображается страничка ноды https://stage.lentatest.com/catalog/alkogolnye-napitki/vino/belye-vina/\n")
+              "10. Отображается страничка ноды https://stage.ttest.com/catalog/alkogolnye-napitki/vino/belye-vina/\n")
 
         return self
 
@@ -366,7 +366,7 @@ class ecom_steps(AnyPage):
               "4. Пролистать вниз до Характеристик\n"
               "5. В характеристиках нажать на бренд Richard\n"
               "6. Открывается страница бренда Richard\n"
-              "7. Перейти на бренд по прямой ссылке  https://stage.lentatest.com/brand/richard/\n"
+              "7. Перейти на бренд по прямой ссылке  https://stage.ttest.com/brand/richard/\n"
               "8. Товары отображаются аналогично шагу 6\n"
               "\n")
 

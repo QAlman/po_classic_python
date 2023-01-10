@@ -37,7 +37,7 @@ class Testproject_8(WebBase):
         project.click_carousel_left()
         project.click_carousel_right()
         project.move_to_actions()
-        z = "Подборка Ленточка"
+        z = "Подборка точка"
         project.select_actions(z)
         project.move_to_actions()
         z = "landing page"
